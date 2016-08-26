@@ -1,0 +1,85 @@
+
+.event-card{
+  display:block;
+  float:left;
+  width:230px;
+  min-height:300px;
+  border-bottom:2px solid #ced6db;
+  border-radius:3px;
+  margin:0px 20px 20px 0px;
+  background-color:#fff;
+}
+.event-card .header{
+  background-color:#848DC3;
+  color:#fff;
+  padding:6px;
+  max-height:192px;
+  overflow-x: hidden;
+  border-radius: 2px;
+
+}
+.event-image img{
+  width:100%;
+}
+.event-content{
+  position:relative;
+  display: block;
+  width:100%;
+  padding:8px;
+}
+.event-content hr{
+  margin-top:5px;
+  margin-bottom:5px;
+}
+.event-vehicles{
+  font-size:14px;
+  color:#848DC3;
+}
+
+.header_title {
+    width:200px;
+    font-size:14px;
+    font-family: "Helvetica";
+    font-weight:700;
+}
+
+.header_sub_title {
+    width:200px!important;
+    font-size:14px;
+    font-family: "Helvetica";
+    font-weight:700;
+
+}
+
+.grid_header {
+    background: #6492BD;
+    color: #ffffff;
+    width: 200px;
+    font-size: 14px;
+    margin-left: -15px;
+    padding-left: 10px;
+}
+
+.event-card-footer{
+  width:100%;
+  float:left;
+  position:relative;
+  padding-top:6px;
+  padding-bottom:3px;
+  border-top:1px solid #f6f6f6;
+}
+ul.action-buttons{
+  display:block;
+  float:left;
+  list-style: none;
+  margin:0px;
+  padding:0px;
+  width:100%;
+}
+ul.action-buttons li.action-btn{
+  float:left;
+  text-align: center;
+}
+.event-card ul.action-buttons li{
+  width:50%;
+}

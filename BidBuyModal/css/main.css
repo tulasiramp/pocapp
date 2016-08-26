@@ -1,0 +1,221 @@
+
+#bid_title{
+    color: #787878!important;
+    font-size:24px;
+    padding-left:20px;
+    font-family:Arial;
+    font-weight:700;
+    padding-bottom:5px;
+    padding-top:5px;"
+}
+
+.bid_image{
+    padding-left:20px;
+}
+li{
+    color: #787878;
+}
+.bid_details{
+    float: right;
+    padding-right: 235px!important;
+    list-style: none!important
+}
+.vin{
+    padding-left:13px;
+}
+.color{
+    padding-left:5px!important;
+}
+.li_vin{
+    padding-left:5px;
+}
+.li_color {
+    padding-left:5px;
+}
+.li_miles{
+    padding-left:5px;
+}
+.bid_block{
+    border-bottom:1px solid lightgrey;
+}
+.bid_event{
+    padding-left:95px;
+}
+.bid_click_event{
+    margin:0;
+    border: none;
+    border-bottom: 2px solid #808DC2;
+    color: #808DC2;
+    padding: 7px 52px;
+    text-align: center;
+    text-decoration: none;
+    background: none!important;
+    font-size: 24px;
+    font-weight:700;
+    cursor: pointer;
+}
+.buy_block{
+    padding-right: 105px;
+}
+.buy_click_event{
+    margin:0;
+    border: none;
+    color: #787878;
+    padding: 7px 52px;
+    text-align: center;
+    text-decoration: none;
+    background: none!important;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.current_bid{
+    padding-left: 30px;
+    font-size: 19px;
+    color: #787878;
+}
+#bids{
+    padding-left:50px;
+}
+.bids{
+    color: #787878;
+    font-size: 19px;
+}
+.bid_amount_block{
+    padding-bottom: 10px;
+}
+#bid-amount{
+    padding-left: 30px;
+    color: #787878;
+    font-size: 17px;
+}
+.bidAmount{
+    font-weight: 400;
+}
+#amount_bid{
+    padding-left: 103.5px;
+}
+.bid_amount_symbol{
+    border: 1px solid lightgrey;
+    margin: 0!important;
+    background-color: lightgrey;
+    padding-right: 7px!important;
+    padding-left: 7px!important;
+    padding-top: 4.5px;
+    padding-bottom: 2px;
+}
+.bid_amount_textarea{
+    width: 35.3%;
+    padding:2px 0 0 5px!important;
+    border: 1px solid #A9A9A9;
+}
+.bidtype_block{
+    padding-bottom: 10px;
+}
+.bidtype_label{
+    padding-left: 30px;
+    color: #787878;
+    font-size: 17px;
+}
+.bidType{
+    font-weight: 400;
+}
+#bid_type{
+    padding-left: 126px;
+}
+.bidtype_textarea{
+    width: 40%;
+    color: #787878;
+    padding:3px 0 3px 10px!important;
+}
+.buyer_account_block{
+    padding-left: 30px;
+    color: #787878;
+    font-size: 17px;
+}
+
+.buyer_label{
+ font-weight: 400;
+}
+
+.buyer_account_textarea{
+    width: 40%;
+    color: #787878;
+    padding:3px 0 3px 10px!important;
+}
+.buyer-acount{
+    padding-left: 81px;
+}
+.buyer_terms{
+    padding-left: 41px;
+    color: #808DC2;
+    margin: 0!important;
+    font-size: 14px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.buyer_conditions{
+    padding-left: 44px!important;
+}
+
+input[type="checkbox"]{
+    zoom:1.5;
+    margin-top:0!important;
+}
+.checkbox label{
+    padding-left: 0 !important;
+}
+
+.checkbox{
+    margin-top: 0 !important;
+}
+.checkbox li {
+    float: right;
+    width: 100%;
+    list-style: none;
+}
+.buyer_conditons_block{
+    padding-left: 29px!important
+}
+.buyer_terms_label{
+    font-size: 14px;
+    font-weight: 400;
+    color: #787878;
+}
+
+.grey-button{
+    background-color: #A9A9A9;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    margin: 3px 10px;
+    cursor: pointer;
+}
+.purple-button{
+    background-color: #808DC2;
+    border: none;
+    color: white;
+    padding: 10px 46px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    margin: 0 16px;
+    cursor: pointer;
+}
+select{
+    border-color: #A9A9A9;
+}
+.modal-footer {
+    margin: -15px;
+}
+
+
+
+

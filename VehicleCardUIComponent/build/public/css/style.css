@@ -1,0 +1,122 @@
+body{
+  background-color:#f4f4f4;
+  color:#787878;
+}
+.top-nav h4{
+  margin-right:10px;
+  margin-top:14px;
+}
+.top-nav .logo{
+  margin:6px;
+  width:35px;
+}
+.top-nav{
+  display:block;
+  width:100%;
+  height:50px;
+  clear:both;
+  border-bottom:1px solid #ccc;
+  background-color:#fff;
+}
+.header {
+	padding: 1% 0%;
+}
+a, a:hover {
+    color: #8094e0;
+    text-decoration: none !important;
+}
+.hd-first>h3 {
+    font-weight: bold;
+	font-size: 20px;
+}
+.hd-first>h3,.hd-first>img ,.hd-first>span {
+    float: left;
+	padding-left: 22px
+}
+
+.dropdown-menu {
+    background: #e6e6e6;
+    border: 1px solid #ccc;
+    border-top: 5px solid #3361a7;
+    display: none;
+    width: 370px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 15px;
+    height: 143px;
+	  margin-top: 0px;
+    margin-left: -26px;
+    border-radius:3px;
+}
+.fa-caret-down {
+    color: white;
+}
+.br-list1 {
+    border-right: 1px solid black;
+    float:left;
+}
+.search {
+    border-radius:0px !important;
+	  background:#f1f1f1;
+	}
+.navbar-form{
+  float:left;
+  display:inline-block;
+}
+.top-nav-search{
+  margin-right:25px;
+}
+.fa.fa-search {
+   border: 1px solid #adacac;
+    padding: 8px 12px;
+    height: 34px;
+    position: absolute;
+}
+#lg-menu>p {
+    width: 11% !important;
+	padding-left: 10% !important;
+}
+#br1-cat ,#br2-cat{
+    margin: 8px 0px;
+}
+#lg1-menu>.col-md-2{
+width: 100px !important;
+}
+#br1-cat {
+    margin-left: 28px;
+}
+#br1-cat>a,#br2-cat>a{
+    font-weight: bold;
+    font-size: 17px;
+}
+.fa.fa-caret-up {
+    margin: -24px 17%;
+    position: absolute;
+    font-size: 28px;
+    color: #3361a7;
+}
+#dropdown-hover:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu>ul>li {
+    text-decoration: none !important;
+    list-style: none;
+    padding: 3px 0px;
+}
+.status{
+    margin-left: 42px;
+}
+.dropdown-menu>ul {
+    text-decoration: none !important;
+    list-style: none;
+	  float: left;
+	  text-align: left;
+    padding-left: 0px;
+    padding: 0px 20px;
+}
+.fa-heartbeat,.fa-question-circle,.fa-cog {
+    margin-left: 4px;
+	}
+	.fa.fa-caret-down {
+    color: #3361a7;
+}

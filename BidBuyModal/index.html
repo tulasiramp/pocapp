@@ -1,0 +1,130 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IAS Marketplace</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#myModal").modal('show');
+        });
+    </script>
+</head>
+<body>
+<div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="bid_title">2011 Chevrolet Corvette</h4>
+                <span class="bid_image">
+                    <img src="images/Vehicle_Image.png" width="100px">
+                </span>
+                <div class="bid_details">
+                    <ul style="list-style: none;">
+                        <li><span class="vin"><b>VIN:</b></span><span class="li_vin">5J8TB4H33DL019872</span></li>
+                        <li><b>Color:</b><span class="li_color">Red/Grey</span></li>
+                        <li><b>Miles:</b><span class="li_miles">5,375</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="row bid_block">
+                    <div class="col-md-6 pull-left bid_event">
+                        <a href=""><p class="bid_click_event">Bid</p></a>
+                    </div>
+                    <div class="col-mdd-6 pull-right buy_block">
+                        <p class="buy_click_event">Buy</p>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="current_bid">Current Bid: <b>22,000</b></p>
+                    </div>
+                    <div class="col-md-6 full-left" id="bids">
+                        <p class="bids">Bids: <b>4</b><p>
+                    </div>
+                </div>
+                <br>
+                <div class="row bid_amount_block">
+                    <div class="col-md-12">
+                        <span id="bid-amount">
+                            <label for="BidAmount"> <span class="bidAmount">Bid Amount</span> </label>
+                        </span>
+                        <span id="amount_bid">
+                        <span class="bid_amount_symbol">
+                           $
+                        </span>
+                            <input type="text" name="bidAmount" id="BidAmount" class="bid_amount_textarea"/>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="row bidtype_block">
+                    <div class="col-md-12">
+                        <span class="bidtype_label">
+                            <label for="BidType"><span class="bidType"> Bid Type</span> </label>
+                        </span>
+                        <span id="bid_type">
+                            <select id="BidType" class="bidtype_textarea" style=" text-align: start; font-size: 14px; padding-right: 200px;">
+                                <option value="active" style="text-align: center">Select Bid Type</option>
+                                <option value="inactive"  style="text-align: center"></option>
+                            </select>
+                        </span>
+
+                    </div>
+                </div>
+                <div class="row no-margin">
+                    <div class="col-md-12">
+                        <span class="buyer_account_block">
+                            <label for="BuyerAccount"><span class="buyer_label"> Buyer Account</span> </label>
+                        </span>
+                        <span class="buyer-acount">
+                            <select id="BuyerAccount" class="buyer_account_textarea" style=" text-align: start; font-size: 14px; padding-right: 195px;">
+                                <option value="active" style="text-align: center">Select Account</option>
+                                <option value="inactive"  style="text-align: center"></option>
+                            </select>
+                        </span>
+                    </div>
+                </div>
+                <br/>
+                <div class="row no-margin">
+                    <p class="buyer_terms">Terms and Conditions</p>
+                    <span>
+                        <ul class="checkbox buyer_conditions">
+                            <li class="buyer_conditons_block">
+                                <input type="checkbox" name="users" value="view" />
+                                <label class="buyer_terms_label">I have read and agree to the terms and conditions above</label>
+                            </li>
+                        </ul>
+                    </span>
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+
+                <div class="modal-footer">
+                    <button type="button" class="grey-button" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="purple-button">Bid</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
